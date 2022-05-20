@@ -8,6 +8,8 @@ pipeline {
         hostname
         echo 'Se imprimió el hostname tambien'
         pwd
+        echo 'Todo bien'
+        echo 'Prueba de webhook'
         '''
       }
     }
