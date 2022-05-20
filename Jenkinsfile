@@ -10,6 +10,7 @@ pipeline {
         pwd
         echo 'Todo bien'
         echo 'Prueba de webhook'
+        echo 'Esto fue tomado del branch2'
         '''
       }
     }
