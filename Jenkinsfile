@@ -3,11 +3,11 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh ...
+        sh '''
         echo 'Do something'
         hostname
         echo 'Se imprimió el hostname tambien'
-        ...
+        '''
       }
     }
     stage('Test') {
