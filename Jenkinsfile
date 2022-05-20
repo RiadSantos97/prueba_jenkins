@@ -7,6 +7,7 @@ pipeline {
         echo 'Do something'
         hostname
         echo 'Se imprimió el hostname tambien'
+        pwd
         '''
       }
     }
