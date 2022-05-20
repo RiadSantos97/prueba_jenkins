@@ -15,7 +15,10 @@ pipeline {
     }
     stage('Test') {
       steps {
+        sh'''
         echo 'Imprime algo'
+        echo 'Esto fue tomado del branch3'
+        '''
       }
     }
     stage('Deploy') {
